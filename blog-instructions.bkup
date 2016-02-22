@@ -1,0 +1,12 @@
+# Set up
+- Install [git](https://desktop.github.com/)
+- Clone the blog repository and checkout the develop branch:
+```
+    mkdir ~/git
+    cd ~/git
+    git clone https://github.com/compmathvn/compmathvn.github.io.git
+    cd compmathvn.github.io
+    git checkout develop
+```
+- Install [Nikola](https://getnikola.com/getting-started.html)
+- 
