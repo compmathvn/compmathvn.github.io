@@ -25,6 +25,7 @@
     nikola new_post -f markdown
     <give it a name: my-first-post>
 ```
+Use "nikola new_post --help" for more options.
 - Edit the post in "posts/my-first-post.md" with your favorite text editor. Try [SublimeText](https://www.sublimetext.com/)
 - Build the site:
 ```
