@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Fun Stuffs</title><link>http://compmathvn.github.io/</link><description>Some fun stuffs in maths, computer science, computer vision, robotics, etc.</description><atom:link type="application/rss+xml" href="http://compmathvn.github.io/rss.xml" rel="self"></atom:link><language>en</language><lastBuildDate>Mon, 22 Feb 2016 12:32:49 GMT</lastBuildDate><generator>http://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>blog-instructions</title><link>http://compmathvn.github.io/posts/blog-instructions/</link><dc:creator>Some guys</dc:creator><description>&lt;div&gt;&lt;h2&gt;Set up&lt;/h2&gt;
+<?xml-stylesheet type="text/xsl" href="assets/xml/rss.xsl" media="all"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Fun Stuffs</title><link>http://compmathvn.github.io/</link><description>Some fun stuffs in maths, computer science, computer vision, robotics, etc.</description><atom:link rel="self" type="application/rss+xml" href="http://compmathvn.github.io/rss.xml"></atom:link><language>en</language><lastBuildDate>Mon, 22 Feb 2016 13:03:51 GMT</lastBuildDate><generator>https://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>blog-instructions</title><link>http://compmathvn.github.io/posts/blog-instructions/</link><dc:creator>Some guys</dc:creator><description>&lt;div&gt;&lt;h2&gt;Set up&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;Install &lt;a href="https://getnikola.com/getting-started.html"&gt;Nikola&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Install &lt;a href="https://getnikola.com/"&gt;Nikola&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Install &lt;a href="https://desktop.github.com/"&gt;git&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Clone the blog repository and checkout the develop branch:&lt;/li&gt;
 &lt;/ul&gt;
-&lt;pre class="code literal-block"&gt;    mkdir ~/git
+&lt;pre class="code literal-block"&gt;&lt;span&gt;&lt;/span&gt;    mkdir ~/git
     cd ~/git
     git clone https://github.com/compmathvn/compmathvn.github.io.git
     cd compmathvn.github.io
@@ -16,22 +16,24 @@
 &lt;ul&gt;
 &lt;li&gt;Create your own post:&lt;/li&gt;
 &lt;/ul&gt;
-&lt;pre class="code literal-block"&gt;    nikola new_post -f markdown
+&lt;pre class="code literal-block"&gt;&lt;span&gt;&lt;/span&gt;    nikola new_post -f markdown
     &amp;lt;give it a name: my-first-post&amp;gt;
 &lt;/pre&gt;
 
 
-&lt;p&gt;Use "nikola new_post --help" for more options.
-- Edit the post in "posts/my-first-post.md" with your favorite text editor. Try &lt;a href="https://www.sublimetext.com/"&gt;SublimeText&lt;/a&gt;
-- Build the site:&lt;/p&gt;
-&lt;pre class="code literal-block"&gt;    nikola build
+&lt;p&gt;Use "nikola new_post --help" for more options.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Edit the post in "posts/my-first-post.md" with your favorite text editor. Try &lt;a href="https://www.sublimetext.com/"&gt;SublimeText&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Build the site:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre class="code literal-block"&gt;&lt;span&gt;&lt;/span&gt;    nikola build
 &lt;/pre&gt;
 
 
 &lt;ul&gt;
 &lt;li&gt;View it locally:&lt;/li&gt;
 &lt;/ul&gt;
-&lt;pre class="code literal-block"&gt;    nikola server
+&lt;pre class="code literal-block"&gt;&lt;span&gt;&lt;/span&gt;    nikola server
     &amp;lt;open your browser, type "localhost:8000"&amp;gt;
 &lt;/pre&gt;
 
@@ -39,6 +41,6 @@
 &lt;ul&gt;
 &lt;li&gt;Deploy on github so everyone can see:&lt;/li&gt;
 &lt;/ul&gt;
-&lt;pre class="code literal-block"&gt;    nikola github_deploy
+&lt;pre class="code literal-block"&gt;&lt;span&gt;&lt;/span&gt;    nikola github_deploy
 &lt;/pre&gt;&lt;/div&gt;</description><guid>http://compmathvn.github.io/posts/blog-instructions/</guid><pubDate>Mon, 22 Feb 2016 07:20:00 GMT</pubDate></item><item><title>First post</title><link>http://compmathvn.github.io/posts/first-post/</link><dc:creator>Some guys</dc:creator><description>&lt;div&gt;&lt;h2&gt;First post&lt;/h2&gt;
 &lt;p&gt;Try &lt;strong&gt;markdown&lt;/strong&gt; &lt;a href="https://help.github.com/articles/basic-writing-and-formatting-syntax/"&gt;here&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description><guid>http://compmathvn.github.io/posts/first-post/</guid><pubDate>Mon, 22 Feb 2016 05:58:01 GMT</pubDate></item></channel></rss>

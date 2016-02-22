@@ -2,16 +2,14 @@
 <html prefix="og: http://ogp.me/ns# article: http://ogp.me/ns/article# " lang="en">
 <head>
 <meta charset="utf-8">
+<base href="http://compmathvn.github.io/">
 <meta name="description" content="Some fun stuffs in maths, computer science, computer vision, robotics, etc.">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Fun Stuffs | Fun Stuffs</title>
-<link href="assets/css/bootstrap.min.css" rel="stylesheet" type="text/css">
-<link href="assets/css/rst.css" rel="stylesheet" type="text/css">
-<link href="assets/css/code.css" rel="stylesheet" type="text/css">
-<link href="assets/css/colorbox.css" rel="stylesheet" type="text/css">
-<link href="assets/css/theme.css" rel="stylesheet" type="text/css">
+<title>Fun Stuffs</title>
+<link href="assets/css/all-nocdn.css" rel="stylesheet" type="text/css">
 <link href="assets/css/ipython.min.css" rel="stylesheet" type="text/css">
 <link href="assets/css/nikola_ipython.css" rel="stylesheet" type="text/css">
+<meta content="#5670d4" name="theme-color">
 <link rel="alternate" type="application/rss+xml" title="RSS" href="rss.xml">
 <link rel="canonical" href="http://compmathvn.github.io/">
 <!--[if lt IE 9]><script src="assets/js/html5.js"></script><![endif]--><link rel="prefetch" href="posts/blog-instructions/" type="text/html">
@@ -21,10 +19,10 @@
 
 <!-- Menubar -->
 
-<nav class="navbar navbar-inverse navbar-static-top" role="navigation"><div class="container">
+<nav class="navbar navbar-inverse navbar-static-top"><div class="container">
 <!-- This keeps the margins nice -->
         <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-navbar" aria-controls="bs-navbar" aria-expanded="false">
             <span class="sr-only">Toggle navigation</span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
@@ -36,7 +34,7 @@
             </a>
         </div>
 <!-- /.navbar-header -->
-        <div class="collapse navbar-collapse navbar-ex1-collapse">
+        <div class="collapse navbar-collapse" id="bs-navbar" aria-expanded="false">
             <ul class="nav navbar-nav">
 <li>
 <a href="archive.html">Archive</a>
@@ -62,10 +60,13 @@
             
             
 
+    
 <div class="postindex">
     <article class="h-entry post-text"><header><h1 class="p-name entry-title"><a href="posts/blog-instructions/" class="u-url">blog-instructions</a></h1>
         <div class="metadata">
-            <p class="byline author vcard"><span class="byline-name fn">Some guys</span></p>
+            <p class="byline author vcard"><span class="byline-name fn">
+                Some guys
+            </span></p>
             <p class="dateline"><a href="posts/blog-instructions/" rel="bookmark"><time class="published dt-published" datetime="2016-02-22T02:20:00-05:00" title="2016-02-22 02:20">2016-02-22 02:20</time></a></p>
                 <p class="commentline">
         
@@ -77,13 +78,13 @@
     <div>
 <h2>Set up</h2>
 <ul>
-<li>Install <a href="https://getnikola.com/getting-started.html">Nikola</a>
+<li>Install <a href="https://getnikola.com/">Nikola</a>
 </li>
 <li>Install <a href="https://desktop.github.com/">git</a>
 </li>
 <li>Clone the blog repository and checkout the develop branch:</li>
 </ul>
-<pre class="code literal-block">    mkdir ~/git
+<pre class="code literal-block"><span></span>    mkdir ~/git
     cd ~/git
     git clone https://github.com/compmathvn/compmathvn.github.io.git
     cd compmathvn.github.io
@@ -94,22 +95,25 @@
 <ul>
 <li>Create your own post:</li>
 </ul>
-<pre class="code literal-block">    nikola new_post -f markdown
+<pre class="code literal-block"><span></span>    nikola new_post -f markdown
     &lt;give it a name: my-first-post&gt;
 </pre>
 
 
-<p>Use "nikola new_post --help" for more options.
-- Edit the post in "posts/my-first-post.md" with your favorite text editor. Try <a href="https://www.sublimetext.com/">SublimeText</a>
-- Build the site:</p>
-<pre class="code literal-block">    nikola build
+<p>Use "nikola new_post --help" for more options.</p>
+<ul>
+<li>Edit the post in "posts/my-first-post.md" with your favorite text editor. Try <a href="https://www.sublimetext.com/">SublimeText</a>
+</li>
+<li>Build the site:</li>
+</ul>
+<pre class="code literal-block"><span></span>    nikola build
 </pre>
 
 
 <ul>
 <li>View it locally:</li>
 </ul>
-<pre class="code literal-block">    nikola server
+<pre class="code literal-block"><span></span>    nikola server
     &lt;open your browser, type "localhost:8000"&gt;
 </pre>
 
@@ -117,13 +121,15 @@
 <ul>
 <li>Deploy on github so everyone can see:</li>
 </ul>
-<pre class="code literal-block">    nikola github_deploy
+<pre class="code literal-block"><span></span>    nikola github_deploy
 </pre>
 </div>
     </div>
     </article><article class="h-entry post-text"><header><h1 class="p-name entry-title"><a href="posts/first-post/" class="u-url">First post</a></h1>
         <div class="metadata">
-            <p class="byline author vcard"><span class="byline-name fn">Some guys</span></p>
+            <p class="byline author vcard"><span class="byline-name fn">
+                Some guys
+            </span></p>
             <p class="dateline"><a href="posts/first-post/" rel="bookmark"><time class="published dt-published" datetime="2016-02-22T00:58:01-05:00" title="2016-02-22 00:58">2016-02-22 00:58</time></a></p>
                 <p class="commentline">
         
@@ -159,8 +165,8 @@
 </div>
 
 
-            <script src="assets/js/jquery.min.js"></script><script src="assets/js/bootstrap.min.js"></script><script src="assets/js/moment-with-locales.min.js"></script><script src="assets/js/fancydates.js"></script><script src="assets/js/jquery.colorbox-min.js"></script><script>$('a.image-reference:not(.islink) img:not(.islink)').parent().colorbox({rel:"gal",maxWidth:"100%",maxHeight:"100%",scalePhotos:true});</script><!-- fancy dates --><script>
-    moment.locale("");
+            <script src="assets/js/all-nocdn.js"></script><script>$('a.image-reference:not(.islink) img:not(.islink)').parent().colorbox({rel:"gal",maxWidth:"100%",maxHeight:"100%",scalePhotos:true});</script><!-- fancy dates --><script>
+    moment.locale("en");
     fancydates(0, "YYYY-MM-DD HH:mm");
     </script><!-- end fancy dates -->
 </body>

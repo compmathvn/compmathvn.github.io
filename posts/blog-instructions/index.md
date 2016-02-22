@@ -10,7 +10,7 @@
 -->
 
 # Set up
-- Install [Nikola](https://getnikola.com/getting-started.html)
+- Install [Nikola](https://getnikola.com/)
 - Install [git](https://desktop.github.com/)
 - Clone the blog repository and checkout the develop branch:
 ```
@@ -26,6 +26,7 @@
     <give it a name: my-first-post>
 ```
 Use "nikola new_post --help" for more options.
+
 - Edit the post in "posts/my-first-post.md" with your favorite text editor. Try [SublimeText](https://www.sublimetext.com/)
 - Build the site:
 ```
