@@ -14,7 +14,7 @@
 <link href="assets/css/nikola_ipython.css" rel="stylesheet" type="text/css">
 <link rel="alternate" type="application/rss+xml" title="RSS" href="rss.xml">
 <link rel="canonical" href="http://compmathvn.github.io/">
-<!--[if lt IE 9]><script src="assets/js/html5.js"></script><![endif]--><link rel="prefetch" href="posts/first-post/" type="text/html">
+<!--[if lt IE 9]><script src="assets/js/html5.js"></script><![endif]--><link rel="prefetch" href="posts/blog-instructions/" type="text/html">
 </head>
 <body>
 <a href="#content" class="sr-only sr-only-focusable">Skip to main content</a>
@@ -63,7 +63,67 @@
             
 
 <div class="postindex">
-    <article class="h-entry post-text"><header><h1 class="p-name entry-title"><a href="posts/first-post/" class="u-url">First post</a></h1>
+    <article class="h-entry post-text"><header><h1 class="p-name entry-title"><a href="posts/blog-instructions/" class="u-url">blog-instructions</a></h1>
+        <div class="metadata">
+            <p class="byline author vcard"><span class="byline-name fn">Some guys</span></p>
+            <p class="dateline"><a href="posts/blog-instructions/" rel="bookmark"><time class="published dt-published" datetime="2016-02-22T02:20:00-05:00" title="2016-02-22 02:20">2016-02-22 02:20</time></a></p>
+                <p class="commentline">
+        
+</p>
+<div class="g-commentcount" data-href="/posts/blog-instructions/"></div>
+<script src="https://apis.google.com/js/plusone.js"></script>
+</div>
+    </header><div class="e-content entry-content">
+    <div>
+<h2>Set up</h2>
+<ul>
+<li>Install <a href="https://getnikola.com/getting-started.html">Nikola</a>
+</li>
+<li>Install <a href="https://desktop.github.com/">git</a>
+</li>
+<li>Clone the blog repository and checkout the develop branch:</li>
+</ul>
+<pre class="code literal-block">    mkdir ~/git
+    cd ~/git
+    git clone https://github.com/compmathvn/compmathvn.github.io.git
+    cd compmathvn.github.io
+    git checkout develop
+</pre>
+
+
+<ul>
+<li>Create your own post:</li>
+</ul>
+<pre class="code literal-block">    nikola new_post -f markdown
+    &lt;give it a name: my-first-post&gt;
+</pre>
+
+
+<ul>
+<li>Edit the post in "posts/my-first-post.md" with your favorite text editor. Try <a href="https://www.sublimetext.com/">SublimeText</a>
+</li>
+<li>Build the site:</li>
+</ul>
+<pre class="code literal-block">    nikola build
+</pre>
+
+
+<ul>
+<li>View it locally:</li>
+</ul>
+<pre class="code literal-block">    nikola server
+    &lt;open your browser, type "localhost:8000"&gt;
+</pre>
+
+
+<ul>
+<li>Deploy on github so everyone can see:</li>
+</ul>
+<pre class="code literal-block">    nikola github_deploy
+</pre>
+</div>
+    </div>
+    </article><article class="h-entry post-text"><header><h1 class="p-name entry-title"><a href="posts/first-post/" class="u-url">First post</a></h1>
         <div class="metadata">
             <p class="byline author vcard"><span class="byline-name fn">Some guys</span></p>
             <p class="dateline"><a href="posts/first-post/" rel="bookmark"><time class="published dt-published" datetime="2016-02-22T00:58:01-05:00" title="2016-02-22 00:58">2016-02-22 00:58</time></a></p>
@@ -77,34 +137,6 @@
     <div>
 <h2>First post</h2>
 <p>Try <strong>markdown</strong> <a href="https://help.github.com/articles/basic-writing-and-formatting-syntax/">here</a></p>
-</div>
-    </div>
-    </article><article class="h-entry post-text"><header><h1 class="p-name entry-title"><a href="posts/blog-instructions/" class="u-url"> Set up</a></h1>
-        <div class="metadata">
-            <p class="byline author vcard"><span class="byline-name fn">Some guys</span></p>
-            <p class="dateline"><a href="posts/blog-instructions/" rel="bookmark"><time class="published dt-published" datetime="2016-02-22T00:00:00-05:00" title="2016-02-22 00:00">2016-02-22 00:00</time></a></p>
-                <p class="commentline">
-        
-</p>
-<div class="g-commentcount" data-href="/posts/blog-instructions/"></div>
-<script src="https://apis.google.com/js/plusone.js"></script>
-</div>
-    </header><div class="e-content entry-content">
-    <div>
-<h2>Set up</h2>
-<ul>
-<li>Install <a href="posts/blog-instructions/">git</a>
-</li>
-<li>Clone the blog repository and checkout the develop branch:
-```
-    git clone https://github.com/compmathvn/compmathvn.github.io.git
-    cd compmathvn.github.io
-    git checkout develop</li>
-<li>Install <a href="posts/blog-instructions/">Nikola</a>
-</li>
-<li>
-</li>
-</ul>
 </div>
     </div>
     </article>
