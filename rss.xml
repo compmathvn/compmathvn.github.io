@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="assets/xml/rss.xsl" media="all"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Fun Stuffs</title><link>http://compmathvn.github.io/</link><description>Some fun stuffs in maths, computer science, computer vision, robotics, etc.</description><atom:link rel="self" type="application/rss+xml" href="http://compmathvn.github.io/rss.xml"></atom:link><language>en</language><lastBuildDate>Mon, 22 Feb 2016 13:05:37 GMT</lastBuildDate><generator>https://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>blog-instructions</title><link>http://compmathvn.github.io/posts/blog-instructions/</link><dc:creator>Some guys</dc:creator><description>&lt;div&gt;&lt;h2&gt;Set up&lt;/h2&gt;
+<?xml-stylesheet type="text/xsl" href="assets/xml/rss.xsl" media="all"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>Fun Stuffs</title><link>http://compmathvn.github.io/</link><description>Some fun stuffs in maths, computer science, computer vision, robotics, etc.</description><atom:link type="application/rss+xml" rel="self" href="http://compmathvn.github.io/rss.xml"></atom:link><language>en</language><lastBuildDate>Mon, 22 Feb 2016 13:08:17 GMT</lastBuildDate><generator>https://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>blog-instructions</title><link>http://compmathvn.github.io/posts/blog-instructions/</link><dc:creator>Some guys</dc:creator><description>&lt;div&gt;&lt;h2&gt;Set up&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Install &lt;a href="https://getnikola.com/"&gt;Nikola&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Install &lt;a href="https://desktop.github.com/"&gt;git&lt;/a&gt;&lt;/li&gt;
@@ -24,16 +24,10 @@
 &lt;p&gt;&lt;strong&gt;Note&lt;/strong&gt;: use "nikola new_post --help" for more options.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Edit the post in "posts/my-first-post.md" with your favorite text editor. Try &lt;a href="https://www.sublimetext.com/"&gt;SublimeText&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Build the site:&lt;/li&gt;
+&lt;li&gt;[Optional] Build the site and view it locally&lt;/li&gt;
 &lt;/ul&gt;
 &lt;pre class="code literal-block"&gt;&lt;span&gt;&lt;/span&gt;    nikola build
-&lt;/pre&gt;
-
-
-&lt;ul&gt;
-&lt;li&gt;View it locally:&lt;/li&gt;
-&lt;/ul&gt;
-&lt;pre class="code literal-block"&gt;&lt;span&gt;&lt;/span&gt;    nikola server
+    nikola server
     &amp;lt;open your browser, type "localhost:8000"&amp;gt;
 &lt;/pre&gt;
 
@@ -42,5 +36,9 @@
 &lt;li&gt;Deploy on github so everyone can see:&lt;/li&gt;
 &lt;/ul&gt;
 &lt;pre class="code literal-block"&gt;&lt;span&gt;&lt;/span&gt;    nikola github_deploy
-&lt;/pre&gt;&lt;/div&gt;</description><guid>http://compmathvn.github.io/posts/blog-instructions/</guid><pubDate>Mon, 22 Feb 2016 07:20:00 GMT</pubDate></item><item><title>First post</title><link>http://compmathvn.github.io/posts/first-post/</link><dc:creator>Some guys</dc:creator><description>&lt;div&gt;&lt;h2&gt;First post&lt;/h2&gt;
+    &amp;lt;open your browser, type "compmathvn.github.io"
+&lt;/pre&gt;
+
+
+&lt;p&gt;This will automatically push the change (new posts) to the develop branch on github, build the site, and push the new site to the master branch.&lt;/p&gt;&lt;/div&gt;</description><guid>http://compmathvn.github.io/posts/blog-instructions/</guid><pubDate>Mon, 22 Feb 2016 07:20:00 GMT</pubDate></item><item><title>First post</title><link>http://compmathvn.github.io/posts/first-post/</link><dc:creator>Some guys</dc:creator><description>&lt;div&gt;&lt;h2&gt;First post&lt;/h2&gt;
 &lt;p&gt;Try &lt;strong&gt;markdown&lt;/strong&gt; &lt;a href="https://help.github.com/articles/basic-writing-and-formatting-syntax/"&gt;here&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description><guid>http://compmathvn.github.io/posts/first-post/</guid><pubDate>Mon, 22 Feb 2016 05:58:01 GMT</pubDate></item></channel></rss>
