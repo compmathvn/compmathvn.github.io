@@ -701,7 +701,7 @@ COMMENT_SYSTEM_ID = "compmathvn"
 # setting the "annotations" metadata.
 # If set to True, you can disable them for individual posts and pages using
 # the "noannotations" metadata.
-ANNOTATIONS = True
+# ANNOTATIONS = True
 
 # Create index.html for page (story) folders?
 # WARNING: if a page would conflict with the index file (usually
