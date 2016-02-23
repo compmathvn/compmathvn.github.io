@@ -1,45 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="assets/xml/rss.xsl" media="all"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Fun Stuffs</title><link>http://compmathvn.github.io/</link><description>Some fun stuffs in maths, computer science, computer vision, robotics, etc.</description><atom:link href="http://compmathvn.github.io/rss.xml" rel="self" type="application/rss+xml"></atom:link><language>en</language><lastBuildDate>Tue, 23 Feb 2016 03:24:20 GMT</lastBuildDate><generator>https://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Blog instructions</title><link>http://compmathvn.github.io/posts/blog-instructions/</link><dc:creator>Some guys</dc:creator><description>&lt;div&gt;&lt;h2&gt;Set up&lt;/h2&gt;
+<?xml-stylesheet type="text/xsl" href="assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Fun Stuffs</title><link>http://compmathvn.github.io/</link><description>Some fun stuffs in maths, computer science, computer vision, robotics, etc.</description><atom:link rel="self" href="http://compmathvn.github.io/rss.xml" type="application/rss+xml"></atom:link><language>en</language><lastBuildDate>Tue, 23 Feb 2016 03:26:25 GMT</lastBuildDate><generator>https://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Blog instructions</title><link>http://compmathvn.github.io/posts/blog-instructions/</link><dc:creator>Some guys</dc:creator><description>&lt;div&gt;&lt;h2&gt;Set up&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Install &lt;a href="https://getnikola.com/"&gt;Nikola&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Install &lt;a href="https://desktop.github.com/"&gt;git&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Clone the blog repository and checkout the develop branch:&lt;/li&gt;
-&lt;/ul&gt;
-&lt;pre class="code literal-block"&gt;&lt;span&gt;&lt;/span&gt;    mkdir ~/git
-    cd ~/git
-    git clone https://github.com/compmathvn/compmathvn.github.io.git
-    cd compmathvn.github.io
-    git checkout develop
-&lt;/pre&gt;
-
-
-&lt;ul&gt;
-&lt;li&gt;Create your own post:&lt;/li&gt;
-&lt;/ul&gt;
-&lt;pre class="code literal-block"&gt;&lt;span&gt;&lt;/span&gt;    nikola new_post -f markdown
-    &amp;lt;give it a name: my-first-post&amp;gt;
-&lt;/pre&gt;
-
-
-&lt;p&gt;&lt;strong&gt;Note&lt;/strong&gt;: use "nikola new_post --help" for more options.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Edit the post in "posts/my-first-post.md" with your favorite text editor. Try &lt;a href="https://www.sublimetext.com/"&gt;SublimeText&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;[Optional] Build the site and view it locally&lt;/li&gt;
-&lt;/ul&gt;
-&lt;pre class="code literal-block"&gt;&lt;span&gt;&lt;/span&gt;    nikola build
-    nikola server
-    &amp;lt;open your browser, type "localhost:8000"&amp;gt;
-&lt;/pre&gt;
-
-
-&lt;ul&gt;
-&lt;li&gt;Deploy on github so everyone can see:&lt;/li&gt;
-&lt;/ul&gt;
-&lt;pre class="code literal-block"&gt;&lt;span&gt;&lt;/span&gt;    nikola github_deploy
-    &amp;lt;open your browser, type "compmathvn.github.io"
-&lt;/pre&gt;
-
-
-&lt;p&gt;This will automatically push the change (new posts) to the develop branch on github, build the site, and push the new site to the master branch.&lt;/p&gt;&lt;/div&gt;</description><guid>http://compmathvn.github.io/posts/blog-instructions/</guid><pubDate>Mon, 22 Feb 2016 07:20:00 GMT</pubDate></item><item><title>First post</title><link>http://compmathvn.github.io/posts/first-post/</link><dc:creator>Some guys</dc:creator><description>&lt;div&gt;&lt;p&gt;Try &lt;strong&gt;markdown&lt;/strong&gt; &lt;a href="https://help.github.com/articles/basic-writing-and-formatting-syntax/"&gt;here&lt;/a&gt;&lt;/p&gt;
+&lt;li&gt;Clone the blog repository and checkout the develop branch:
+&lt;p&gt;&lt;a href="http://compmathvn.github.io/posts/blog-instructions/"&gt;Read more…&lt;/a&gt; (1 min remaining to read)&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;</description><guid>http://compmathvn.github.io/posts/blog-instructions/</guid><pubDate>Mon, 22 Feb 2016 07:20:00 GMT</pubDate></item><item><title>First post</title><link>http://compmathvn.github.io/posts/first-post/</link><dc:creator>Some guys</dc:creator><description>&lt;div&gt;&lt;p&gt;Try &lt;strong&gt;markdown&lt;/strong&gt; &lt;a href="https://help.github.com/articles/basic-writing-and-formatting-syntax/"&gt;here&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Awesome! &lt;a href="https://getnikola.com/handbook.html#math"&gt;Math&lt;/a&gt; works too!! &lt;/p&gt;
 &lt;p&gt;Euler’s formula: \(e^{ix} = \cos x + i\sin x\)&lt;/p&gt;&lt;/div&gt;</description><category>mathjax</category><guid>http://compmathvn.github.io/posts/first-post/</guid><pubDate>Mon, 22 Feb 2016 05:58:01 GMT</pubDate></item></channel></rss>

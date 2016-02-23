@@ -13,6 +13,8 @@
 - Install [Nikola](https://getnikola.com/)
 - Install [git](https://desktop.github.com/)
 - Clone the blog repository and checkout the develop branch:
+<!-- TEASER_END -->
+
 ```
     mkdir ~/git
     cd ~/git
