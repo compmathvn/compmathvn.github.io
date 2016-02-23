@@ -130,8 +130,8 @@ NAVIGATION_LINKS = {
 }
 
 # Name of the theme to use.
-# THEME = "bootstrap3"
-THEME = "bootstrap"
+THEME = "bootstrap3"
+# THEME = "bootstrap3-gradients-jinja"
 
 # Below this point, everything is optional
 
