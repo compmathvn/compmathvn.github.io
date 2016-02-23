@@ -1,5 +1,5 @@
 <!-- 
-.. title: blog-instructions
+.. title: Blog instructions
 .. slug: blog-instructions
 .. date: 2016-02-22 02:20:00 UTC-05:00
 .. tags: 
