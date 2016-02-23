@@ -10,4 +10,5 @@
 Try __markdown__ [here](https://help.github.com/articles/basic-writing-and-formatting-syntax/)
 
 Awesome! [Math](https://getnikola.com/handbook.html#math) works too!! 
+
 Euler’s formula: \\(e^{ix} = \\cos x + i\\sin x\\)
