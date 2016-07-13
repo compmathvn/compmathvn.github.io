@@ -1,2 +1,4 @@
 Sitemap: http://compmathvn.github.io/sitemapindex.xml
 
+User-Agent: *
+Host: compmathvn.github.io

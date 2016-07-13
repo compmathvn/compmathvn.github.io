@@ -40,7 +40,7 @@
 <a href="archive.html">Archive</a>
                 </li>
 <li>
-<a href="categories/index.html">Tags</a>
+<a href="categories/">Tags</a>
                 </li>
 <li>
 <a href="rss.xml">RSS feed</a>
@@ -67,15 +67,15 @@
             <p class="byline author vcard"><span class="byline-name fn">
                 Some guys
             </span></p>
-            <p class="dateline"><a href="posts/about-the-famous-bayes-rule/" rel="bookmark"><time class="published dt-published" datetime="2016-03-03T00:00:00-05:00" title="2016-03-03 00:00">2016-03-03 00:00</time></a></p>
+            <p class="dateline"><a href="posts/about-the-famous-bayes-rule/" rel="bookmark"><time class="published dt-published" datetime="2016-03-03T00:00:00-04:00" title="2016-03-03 00:00">2016-03-03 00:00</time></a></p>
                 <p class="commentline">
         
-    <a href="posts/about-the-famous-bayes-rule/#disqus_thread" data-disqus-identifier="cache/posts/About the famous Bayes rule.html">Comments</a>
+    <a href="posts/about-the-famous-bayes-rule/#disqus_thread" data-disqus-identifier="cache/posts/about-the-famous-bayes-rule.html">Comments</a>
 
 
         </p>
 </div>
-    </header><div class="p-summary entry-summary">
+    </header><div class="e-content entry-content">
     <div tabindex="-1" id="notebook" class="border-box-sizing">
     <div class="container" id="notebook-container">
 
@@ -124,7 +124,7 @@ $$ p(x|z) = \frac{p(z|x)p(x)}{p(z)} $$<p>This simple Bayes rule can answer every
 
         </p>
 </div>
-    </header><div class="p-summary entry-summary">
+    </header><div class="e-content entry-content">
     <div>
 <h2>Set up</h2>
 <ul>
@@ -133,9 +133,46 @@ $$ p(x|z) = \frac{p(z|x)p(x)}{p(z)} $$<p>This simple Bayes rule can answer every
 <li>Install <a href="https://desktop.github.com/">git</a>
 </li>
 <li>Clone the blog repository and checkout the develop branch:
-<p class="more"><a href="posts/blog-instructions/">Read more…</a></p>
+<!-- TEASER_END -->
 </li>
 </ul>
+<pre class="code literal-block"><span></span>    mkdir ~/git
+    cd ~/git
+    git clone https://github.com/compmathvn/compmathvn.github.io.git
+    cd compmathvn.github.io
+    git checkout develop
+</pre>
+
+
+<ul>
+<li>Create your own post:</li>
+</ul>
+<pre class="code literal-block"><span></span>    nikola new_post -f markdown
+    &lt;give it a name: my-first-post&gt;
+</pre>
+
+
+<p><strong>Note</strong>: use "nikola new_post --help" for more options.</p>
+<ul>
+<li>Edit the post in "posts/my-first-post.md" with your favorite text editor. Try <a href="https://www.sublimetext.com/">SublimeText</a>
+</li>
+<li>[Optional] Build the site and view it locally</li>
+</ul>
+<pre class="code literal-block"><span></span>    nikola build
+    nikola server
+    &lt;open your browser, type "localhost:8000"&gt;
+</pre>
+
+
+<ul>
+<li>Deploy on github so everyone can see:</li>
+</ul>
+<pre class="code literal-block"><span></span>    nikola github_deploy
+    &lt;open your browser, type "compmathvn.github.io"
+</pre>
+
+
+<p>This will automatically push the change (new posts) to the develop branch on github, build the site, and push the new site to the master branch.</p>
 </div>
     </div>
     </article><article class="h-entry post-text"><header><h1 class="p-name entry-title"><a href="posts/first-post/" class="u-url">First post</a></h1>
@@ -151,7 +188,7 @@ $$ p(x|z) = \frac{p(z|x)p(x)}{p(z)} $$<p>This simple Bayes rule can answer every
 
         </p>
 </div>
-    </header><div class="p-summary entry-summary">
+    </header><div class="e-content entry-content">
     <div>
 <p>Try <strong>markdown</strong> <a href="https://help.github.com/articles/basic-writing-and-formatting-syntax/">here</a></p>
 <p>Awesome! <a href="https://getnikola.com/handbook.html#math">Math</a> works too!! </p>

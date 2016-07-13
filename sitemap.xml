@@ -15,7 +15,7 @@
  </url>
  <url>
   <loc>http://compmathvn.github.io/archive.html</loc>
-  <lastmod>2016-03-04T04:32:00Z</lastmod>
+  <lastmod>2016-07-13T20:21:00Z</lastmod>
  </url>
  <url>
   <loc>http://compmathvn.github.io/categories/</loc>
@@ -26,6 +26,14 @@
   <lastmod>2016-02-23T03:14:00Z</lastmod>
  </url>
  <url>
+  <loc>http://compmathvn.github.io/galleries/</loc>
+  <lastmod>2016-07-13T12:05:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://compmathvn.github.io/listings/</loc>
+  <lastmod>2016-07-13T12:05:00Z</lastmod>
+ </url>
+ <url>
   <loc>http://compmathvn.github.io/posts/about-the-famous-bayes-rule/</loc>
   <lastmod>2016-03-04T04:32:00Z</lastmod>
  </url>
@@ -34,7 +42,15 @@
   <lastmod>2016-02-22T07:13:00Z</lastmod>
  </url>
  <url>
+  <loc>http://compmathvn.github.io/posts/ds/</loc>
+  <lastmod>2016-07-13T17:47:00Z</lastmod>
+ </url>
+ <url>
   <loc>http://compmathvn.github.io/posts/first-post/</loc>
   <lastmod>2016-02-22T06:48:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://compmathvn.github.io/posts/test/</loc>
+  <lastmod>2016-07-13T20:11:00Z</lastmod>
  </url>
 </urlset>
