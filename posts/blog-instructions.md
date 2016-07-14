@@ -43,3 +43,6 @@ __Tip__: To break a line in markdown, end its with a double space \s\s.
     <open your browser, type "compmathvn.github.io">
 ```
 This will automatically push the change (new posts) to the develop branch on github, build the site, and push the new site to the master branch.
+
+# Git setup
+If you find it annoying to enter the username and password everytime you push to github, [generating a new ssh key and adding it to the ssh agent and your github account](https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/). Also email ```comp.math.vn@gmail.com``` your github username to ask for the push access.
