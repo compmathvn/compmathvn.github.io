@@ -13,9 +13,6 @@
 - Install [Nikola](https://getnikola.com/)
 - Install [git](https://desktop.github.com/)
 - Clone the blog repository and checkout the develop branch:
-
-<!-- TEASER_END -->
-
 ```
     mkdir ~/git
     cd ~/git
@@ -23,23 +20,26 @@
     cd compmathvn.github.io
     git checkout develop
 ```
-- Create your own post:
+- Create your own post:  
 ```
     nikola new_post -f markdown
-    <give it a name: my-first-post>
+    <give it a title: "My first post">
 ```
-__Note__: use "nikola new_post --help" for more options.
+__Note__: use ```nikola new_post --help``` for more options.  
+__Note__: for ipython, simply copying an ipynb to the ```posts``` folder won't work. Need to use ```nikola new_post -f ipynb``` to generate the file with appropriate metadata.
+<!-- TEASER_END -->
 
-- Edit the post in "posts/my-first-post.md" with your favorite text editor. Try [SublimeText](https://www.sublimetext.com/)
-- [Optional] Build the site and view it locally
+- Edit the new post ```posts/my-first-post.md``` with your favorite text editor. Try [SublimeText](https://www.sublimetext.com/)  
+__Tip__: To break a line in markdown, end its with a double space \s\s.
+
+- *(Optional)* Build the site and view it locally
 ```
     nikola build
-    nikola server
-    <open your browser, type "localhost:8000">
+    nikola server -b
 ```
 - Deploy on github so everyone can see:
 ```
     nikola github_deploy
-    <open your browser, type "compmathvn.github.io"
+    <open your browser, type "compmathvn.github.io">
 ```
 This will automatically push the change (new posts) to the develop branch on github, build the site, and push the new site to the master branch.

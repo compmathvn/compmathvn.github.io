@@ -23,12 +23,10 @@ Install Nikola
 Install git
 Clone the blog repository and checkout the develop branch:
 
-
-
     mkdir ~/git
     cd ~/git
     git clone https://github.com/compmathvn/compmathvn.github.io.git
-    c">
+    cd ">
 <meta property="og:type" content="article">
 <meta property="article:published_time" content="2016-02-22T02:20:00-05:00">
 </head>
@@ -112,7 +110,7 @@ Clone the blog repository and checkout the develop branch:
 </li>
 <li>Clone the blog repository and checkout the develop branch:</li>
 </ul>
-<!-- TEASER_END --><pre class="code literal-block"><span></span>    mkdir ~/git
+<pre class="code literal-block"><span></span>    mkdir ~/git
     cd ~/git
     git clone https://github.com/compmathvn/compmathvn.github.io.git
     cd compmathvn.github.io
@@ -121,22 +119,25 @@ Clone the blog repository and checkout the develop branch:
 
 
 <ul>
-<li>Create your own post:</li>
+<li>Create your own post:  </li>
 </ul>
 <pre class="code literal-block"><span></span>    nikola new_post -f markdown
-    &lt;give it a name: my-first-post&gt;
+    &lt;give it a title: "My first post"&gt;
 </pre>
 
 
-<p><strong>Note</strong>: use "nikola new_post --help" for more options.</p>
+<p><strong>Note</strong>: use <code>nikola new_post --help</code> for more options.<br><strong>Note</strong>: for ipython, simply copying an ipynb to the <code>posts</code> folder won't work. Need to use <code>nikola new_post -f ipynb</code> to generate the file with appropriate metadata.
+<!-- TEASER_END --></p>
 <ul>
-<li>Edit the post in "posts/my-first-post.md" with your favorite text editor. Try <a href="https://www.sublimetext.com/">SublimeText</a>
+<li>
+<p>Edit the new post <code>posts/my-first-post.md</code> with your favorite text editor. Try <a href="https://www.sublimetext.com/">SublimeText</a><br><strong>Tip</strong>: To break a line in markdown, end its with a double space \s\s.</p>
 </li>
-<li>[Optional] Build the site and view it locally</li>
+<li>
+<p><em>(Optional)</em> Build the site and view it locally</p>
+</li>
 </ul>
 <pre class="code literal-block"><span></span>    nikola build
-    nikola server
-    &lt;open your browser, type "localhost:8000"&gt;
+    nikola server -b
 </pre>
 
 
@@ -144,7 +145,7 @@ Clone the blog repository and checkout the develop branch:
 <li>Deploy on github so everyone can see:</li>
 </ul>
 <pre class="code literal-block"><span></span>    nikola github_deploy
-    &lt;open your browser, type "compmathvn.github.io"
+    &lt;open your browser, type "compmathvn.github.io"&gt;
 </pre>
 
 

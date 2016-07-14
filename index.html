@@ -170,6 +170,24 @@ $$ p(x|z) = \frac{p(z|x)p(x)}{p(z)} $$<p>This simple Bayes rule can answer every
 </li>
 <li>Clone the blog repository and checkout the develop branch:</li>
 </ul>
+<pre class="code literal-block"><span></span>    mkdir ~/git
+    cd ~/git
+    git clone https://github.com/compmathvn/compmathvn.github.io.git
+    cd compmathvn.github.io
+    git checkout develop
+</pre>
+
+
+<ul>
+<li>Create your own post:  </li>
+</ul>
+<pre class="code literal-block"><span></span>    nikola new_post -f markdown
+    &lt;give it a title: "My first post"&gt;
+</pre>
+
+
+<p><strong>Note</strong>: use <code>nikola new_post --help</code> for more options.<br><strong>Note</strong>: for ipython, simply copying an ipynb to the <code>posts</code> folder won't work. Need to use <code>nikola new_post -f ipynb</code> to generate the file with appropriate metadata.
+</p>
 <p class="more"><a href="posts/blog-instructions/">Read more…</a></p>
 </div>
     </div>
