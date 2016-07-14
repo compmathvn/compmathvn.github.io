@@ -26,7 +26,7 @@
     <give it a title: "My first post">
 ```
 __Note__: use ```nikola new_post --help``` for more options.  
-__Note__: for ipython, simply copying an ipynb to the ```posts``` folder won't work. Need to use ```nikola new_post -f ipynb``` to generate the file with appropriate metadata.
+__Note__: for ipython, simply copying an ipynb to the ```posts``` folder won't work. Need to use ```nikola new_post -f ipynb``` to generate the file with the appropriate metadata.
 <!-- TEASER_END -->
 
 - Edit the new post ```posts/my-first-post.md``` with your favorite text editor. Try [SublimeText](https://www.sublimetext.com/)  
