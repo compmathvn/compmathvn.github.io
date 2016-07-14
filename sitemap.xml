@@ -15,15 +15,23 @@
  </url>
  <url>
   <loc>http://compmathvn.github.io/archive.html</loc>
-  <lastmod>2016-07-13T20:21:00Z</lastmod>
+  <lastmod>2016-07-13T21:14:00Z</lastmod>
  </url>
  <url>
   <loc>http://compmathvn.github.io/categories/</loc>
-  <lastmod>2016-02-23T03:14:00Z</lastmod>
+  <lastmod>2016-07-13T20:43:00Z</lastmod>
  </url>
  <url>
   <loc>http://compmathvn.github.io/categories/mathjax/</loc>
   <lastmod>2016-02-23T03:14:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://compmathvn.github.io/categories/papers/</loc>
+  <lastmod>2016-07-13T20:43:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://compmathvn.github.io/categories/vision/</loc>
+  <lastmod>2016-07-13T20:43:00Z</lastmod>
  </url>
  <url>
   <loc>http://compmathvn.github.io/galleries/</loc>
@@ -42,15 +50,11 @@
   <lastmod>2016-02-22T07:13:00Z</lastmod>
  </url>
  <url>
-  <loc>http://compmathvn.github.io/posts/ds/</loc>
-  <lastmod>2016-07-13T17:47:00Z</lastmod>
- </url>
- <url>
   <loc>http://compmathvn.github.io/posts/first-post/</loc>
   <lastmod>2016-02-22T06:48:00Z</lastmod>
  </url>
  <url>
-  <loc>http://compmathvn.github.io/posts/test/</loc>
-  <lastmod>2016-07-13T20:11:00Z</lastmod>
+  <loc>http://compmathvn.github.io/posts/papers-of-interests-cvpr-2016-1/</loc>
+  <lastmod>2016-07-13T20:43:00Z</lastmod>
  </url>
 </urlset>

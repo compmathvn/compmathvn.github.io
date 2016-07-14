@@ -12,7 +12,7 @@
 <meta content="#5670d4" name="theme-color">
 <link rel="alternate" type="application/rss+xml" title="RSS" href="rss.xml">
 <link rel="canonical" href="http://compmathvn.github.io/">
-<!--[if lt IE 9]><script src="assets/js/html5.js"></script><![endif]--><link rel="prefetch" href="posts/about-the-famous-bayes-rule/" type="text/html">
+<!--[if lt IE 9]><script src="assets/js/html5.js"></script><![endif]--><link rel="prefetch" href="posts/papers-of-interests-cvpr-2016-1/" type="text/html">
 </head>
 <body>
 <a href="#content" class="sr-only sr-only-focusable">Skip to main content</a>
@@ -62,7 +62,43 @@
 
     
 <div class="postindex">
-    <article class="h-entry post-text"><header><h1 class="p-name entry-title"><a href="posts/about-the-famous-bayes-rule/" class="u-url">About the famous Bayes rule</a></h1>
+    <article class="h-entry post-text"><header><h1 class="p-name entry-title"><a href="posts/papers-of-interests-cvpr-2016-1/" class="u-url">Papers of interests - CVPR 2016 (1)</a></h1>
+        <div class="metadata">
+            <p class="byline author vcard"><span class="byline-name fn">
+                Some guys
+            </span></p>
+            <p class="dateline"><a href="posts/papers-of-interests-cvpr-2016-1/" rel="bookmark"><time class="published dt-published" datetime="2016-07-13T16:32:42-04:00" title="2016-07-13 16:32">2016-07-13 16:32</time></a></p>
+        </div>
+    </header><div class="p-summary entry-summary">
+    <div>
+<h3><strong>MATCHING</strong></h3>
+<ul>
+<li>
+<p><a href="http://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Harwood_FANNG_Fast_Approximate_CVPR_2016_paper.pdf"><strong>FANNG: Fast Approximate Nearest Neighbour Graphs</strong></a> 
+<a href="posts/harwood16cvpr">[notes]</a><br>
+Ben Harwood, Tom Drummond</p>
+</li>
+<li>
+<p><a href="http://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Stumm_Robust_Visual_Place_CVPR_2016_paper.pdf"><strong>Robust Visual Place Recognition With Graph Kernels</strong></a><br>
+Elena Stumm, Christopher Mei, Simon Lacroix, Juan Nieto, Marco Hutter, Roland Siegwart</p>
+</li>
+<li>
+<p><a href="http://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Lotan_Needle-Match_Reliable_Patch_CVPR_2016_paper.pdf"><strong>Needle-Match: Reliable Patch Matching Under High Uncertainty</strong></a><br>
+Or Lotan, Michal Irani</p>
+</li>
+<li>
+<p><a href="http://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Sattler_Large-Scale_Location_Recognition_CVPR_2016_paper.pdf"><strong>Large-Scale Location Recognition and the Geometric Burstiness Problem</strong></a><br>
+Torsten Sattler, Michal Havlena, Konrad Schindler, Marc Pollefeys</p>
+</li>
+<li>
+<p><a href="http://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Wang_The_Global_Patch_CVPR_2016_paper.pdf"><strong>The Global Patch Collider</strong></a><br>
+Shenlong Wang, Sean Ryan Fanello, Christoph Rhemann, Shahram Izadi, Pushmeet Kohli</p>
+</li>
+</ul>
+<p class="more"><a href="posts/papers-of-interests-cvpr-2016-1/">Read more…</a></p>
+</div>
+    </div>
+    </article><article class="h-entry post-text"><header><h1 class="p-name entry-title"><a href="posts/about-the-famous-bayes-rule/" class="u-url">About the famous Bayes rule</a></h1>
         <div class="metadata">
             <p class="byline author vcard"><span class="byline-name fn">
                 Some guys
@@ -75,7 +111,7 @@
 
         </p>
 </div>
-    </header><div class="e-content entry-content">
+    </header><div class="p-summary entry-summary">
     <div tabindex="-1" id="notebook" class="border-box-sizing">
     <div class="container" id="notebook-container">
 
@@ -124,7 +160,7 @@ $$ p(x|z) = \frac{p(z|x)p(x)}{p(z)} $$<p>This simple Bayes rule can answer every
 
         </p>
 </div>
-    </header><div class="e-content entry-content">
+    </header><div class="p-summary entry-summary">
     <div>
 <h2>Set up</h2>
 <ul>
@@ -132,47 +168,9 @@ $$ p(x|z) = \frac{p(z|x)p(x)}{p(z)} $$<p>This simple Bayes rule can answer every
 </li>
 <li>Install <a href="https://desktop.github.com/">git</a>
 </li>
-<li>Clone the blog repository and checkout the develop branch:
-<!-- TEASER_END -->
-</li>
+<li>Clone the blog repository and checkout the develop branch:</li>
 </ul>
-<pre class="code literal-block"><span></span>    mkdir ~/git
-    cd ~/git
-    git clone https://github.com/compmathvn/compmathvn.github.io.git
-    cd compmathvn.github.io
-    git checkout develop
-</pre>
-
-
-<ul>
-<li>Create your own post:</li>
-</ul>
-<pre class="code literal-block"><span></span>    nikola new_post -f markdown
-    &lt;give it a name: my-first-post&gt;
-</pre>
-
-
-<p><strong>Note</strong>: use "nikola new_post --help" for more options.</p>
-<ul>
-<li>Edit the post in "posts/my-first-post.md" with your favorite text editor. Try <a href="https://www.sublimetext.com/">SublimeText</a>
-</li>
-<li>[Optional] Build the site and view it locally</li>
-</ul>
-<pre class="code literal-block"><span></span>    nikola build
-    nikola server
-    &lt;open your browser, type "localhost:8000"&gt;
-</pre>
-
-
-<ul>
-<li>Deploy on github so everyone can see:</li>
-</ul>
-<pre class="code literal-block"><span></span>    nikola github_deploy
-    &lt;open your browser, type "compmathvn.github.io"
-</pre>
-
-
-<p>This will automatically push the change (new posts) to the develop branch on github, build the site, and push the new site to the master branch.</p>
+<p class="more"><a href="posts/blog-instructions/">Read more…</a></p>
 </div>
     </div>
     </article><article class="h-entry post-text"><header><h1 class="p-name entry-title"><a href="posts/first-post/" class="u-url">First post</a></h1>
@@ -188,7 +186,7 @@ $$ p(x|z) = \frac{p(z|x)p(x)}{p(z)} $$<p>This simple Bayes rule can answer every
 
         </p>
 </div>
-    </header><div class="e-content entry-content">
+    </header><div class="p-summary entry-summary">
     <div>
 <p>Try <strong>markdown</strong> <a href="https://help.github.com/articles/basic-writing-and-formatting-syntax/">here</a></p>
 <p>Awesome! <a href="https://getnikola.com/handbook.html#math">Math</a> works too!! </p>

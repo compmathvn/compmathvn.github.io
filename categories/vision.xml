@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0"><channel><title>Fun Stuffs (vision)</title><link>http://compmathvn.github.io/</link><description></description><atom:link type="application/rss+xml" rel="self" href="http://compmathvn.github.io/categories/vision.xml"></atom:link><language>en</language><lastBuildDate>Thu, 14 Jul 2016 08:57:32 GMT</lastBuildDate><generator>https://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Papers of interests - CVPR 2016 (1)</title><link>http://compmathvn.github.io/posts/papers-of-interests-cvpr-2016-1/</link><dc:creator>Some guys</dc:creator><description>&lt;div&gt;&lt;h3&gt;&lt;strong&gt;MATCHING&lt;/strong&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="http://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Harwood_FANNG_Fast_Approximate_CVPR_2016_paper.pdf"&gt;&lt;strong&gt;FANNG: Fast Approximate Nearest Neighbour Graphs&lt;/strong&gt;&lt;/a&gt; 
+&lt;a href="http://compmathvn.github.io/posts/harwood16cvpr"&gt;[notes]&lt;/a&gt;&lt;br&gt;
+Ben Harwood, Tom Drummond&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="http://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Stumm_Robust_Visual_Place_CVPR_2016_paper.pdf"&gt;&lt;strong&gt;Robust Visual Place Recognition With Graph Kernels&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;
+Elena Stumm, Christopher Mei, Simon Lacroix, Juan Nieto, Marco Hutter, Roland Siegwart&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="http://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Lotan_Needle-Match_Reliable_Patch_CVPR_2016_paper.pdf"&gt;&lt;strong&gt;Needle-Match: Reliable Patch Matching Under High Uncertainty&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;
+Or Lotan, Michal Irani&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="http://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Sattler_Large-Scale_Location_Recognition_CVPR_2016_paper.pdf"&gt;&lt;strong&gt;Large-Scale Location Recognition and the Geometric Burstiness Problem&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;
+Torsten Sattler, Michal Havlena, Konrad Schindler, Marc Pollefeys&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="http://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Wang_The_Global_Patch_CVPR_2016_paper.pdf"&gt;&lt;strong&gt;The Global Patch Collider&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;
+Shenlong Wang, Sean Ryan Fanello, Christoph Rhemann, Shahram Izadi, Pushmeet Kohli&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;a href="http://compmathvn.github.io/posts/papers-of-interests-cvpr-2016-1/"&gt;Read more…&lt;/a&gt; (4 min remaining to read)&lt;/p&gt;&lt;/div&gt;</description><category>papers</category><category>vision</category><guid>http://compmathvn.github.io/posts/papers-of-interests-cvpr-2016-1/</guid><pubDate>Wed, 13 Jul 2016 20:32:42 GMT</pubDate></item></channel></rss>
