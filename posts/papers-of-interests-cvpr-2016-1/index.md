@@ -20,7 +20,7 @@ Ben Harwood (CVPR-16)
 Elena Stumm (CVPR-16) <font color='red'>**◄◄**</font>
 
 - [**Needle-Match: Reliable Patch Matching Under High Uncertainty.**](http://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Lotan_Needle-Match_Reliable_Patch_CVPR_2016_paper.pdf)
-Or Lotan (CVPR-16) -- Multi-scale jet-style descriptor using pixel intensity directly. Same patch size at all levels. Useful for noise, blur, deformation. Not scale invariant. <font color='red'>**◄**</font>
+Or Lotan (CVPR-16) -- Multi-scale jet-style descriptor using pixel intensity directly. Same patch size at all levels. Good matching under lots of noise, blur, deformation. Not scale invariant. <font color='red'>**◄**</font>
 
 - [**Large-Scale Location Recognition and the Geometric Burstiness Problem.**](http://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Sattler_Large-Scale_Location_Recognition_CVPR_2016_paper.pdf)
 Torsten Sattler (CVPR-16)
