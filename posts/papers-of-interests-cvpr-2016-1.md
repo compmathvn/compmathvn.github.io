@@ -12,6 +12,8 @@
 
 ## **MATCHING**
 
+foo <font color='red'>bar</font> foo
+
 - [**FANNG: Fast Approximate Nearest Neighbour Graphs**](http://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Harwood_FANNG_Fast_Approximate_CVPR_2016_paper.pdf) 
 [[notes]](link://slug/harwood16cvpr)  
 Ben Harwood, Tom Drummond
