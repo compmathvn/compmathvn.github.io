@@ -1,22 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="assets/xml/rss.xsl" media="all"?><rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0"><channel><title>Fun Stuffs</title><link>http://compmathvn.github.io/</link><description>Some fun stuffs in maths, computer science, computer vision, robotics, etc.</description><atom:link type="application/rss+xml" href="http://compmathvn.github.io/rss.xml" rel="self"></atom:link><language>en</language><lastBuildDate>Fri, 15 Jul 2016 09:09:00 GMT</lastBuildDate><generator>https://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Papers of interests - CVPR 2016 (1)</title><link>http://compmathvn.github.io/posts/papers-of-interests-cvpr-2016-1/</link><dc:creator>Some guys</dc:creator><description>&lt;div&gt;&lt;h3&gt;&lt;strong&gt;MATCHING&lt;/strong&gt;&lt;/h3&gt;
-&lt;p&gt;foo &lt;font color="red"&gt;bar&lt;/font&gt; foo&lt;/p&gt;
+<?xml-stylesheet type="text/xsl" href="assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Fun Stuffs</title><link>http://compmathvn.github.io/</link><description>Some fun stuffs in maths, computer science, computer vision, robotics, etc.</description><atom:link href="http://compmathvn.github.io/rss.xml" rel="self" type="application/rss+xml"></atom:link><language>en</language><lastBuildDate>Fri, 15 Jul 2016 10:02:18 GMT</lastBuildDate><generator>https://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Papers of interests - CVPR 2016 (1)</title><link>http://compmathvn.github.io/posts/papers-of-interests-cvpr-2016-1/</link><dc:creator>Some guys</dc:creator><description>&lt;div&gt;&lt;h3&gt;&lt;strong&gt;MATCHING&lt;/strong&gt;&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;a href="http://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Harwood_FANNG_Fast_Approximate_CVPR_2016_paper.pdf"&gt;&lt;strong&gt;FANNG: Fast Approximate Nearest Neighbour Graphs&lt;/strong&gt;&lt;/a&gt; 
-&lt;a href="http://compmathvn.github.io/posts/harwood16cvpr"&gt;[notes]&lt;/a&gt;&lt;br&gt;
-Ben Harwood, Tom Drummond&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Harwood_FANNG_Fast_Approximate_CVPR_2016_paper.pdf"&gt;&lt;strong&gt;FANNG: Fast Approximate Nearest Neighbour Graphs&lt;/strong&gt;&lt;/a&gt;
+Ben Harwood, Tom Drummond (CVPR-16) 
+-- Find best match descriptor in a dataset. Directed graph, one node for each descriptor. "Occlusion" property for ideal graph to make sure the search always goes downhill (getting closer to the target) starting at an arbitrary node. Speed up with approximate graph construction and back-track search.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;a href="http://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Stumm_Robust_Visual_Place_CVPR_2016_paper.pdf"&gt;&lt;strong&gt;Robust Visual Place Recognition With Graph Kernels&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;
-Elena Stumm, Christopher Mei, Simon Lacroix, Juan Nieto, Marco Hutter, Roland Siegwart&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Stumm_Robust_Visual_Place_CVPR_2016_paper.pdf"&gt;&lt;span style="background-color: #FFFF00"&gt;&lt;strong&gt;Robust Visual Place Recognition With Graph Kernels.&lt;/strong&gt;&lt;/span&gt;&lt;/a&gt;
+Elena Stumm, Christopher Mei, Simon Lacroix, Juan Nieto, Marco Hutter, Roland Siegwart (CVPR-16) &lt;font color="red"&gt;&lt;strong&gt;◄◄&lt;/strong&gt;&lt;/font&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;a href="http://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Lotan_Needle-Match_Reliable_Patch_CVPR_2016_paper.pdf"&gt;&lt;strong&gt;Needle-Match: Reliable Patch Matching Under High Uncertainty&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;
-Or Lotan, Michal Irani&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Lotan_Needle-Match_Reliable_Patch_CVPR_2016_paper.pdf"&gt;&lt;strong&gt;Needle-Match: Reliable Patch Matching Under High Uncertainty.&lt;/strong&gt;&lt;/a&gt;
+Or Lotan, Michal Irani (CVPR-16) &lt;font color="red"&gt;&lt;strong&gt;◄&lt;/strong&gt;&lt;/font&gt; -- Multi-scale jet-style descriptor using pixel intensity directly. Same patch size at all levels. Useful for noise, blur, deformation. Not scale invariant.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;a href="http://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Sattler_Large-Scale_Location_Recognition_CVPR_2016_paper.pdf"&gt;&lt;strong&gt;Large-Scale Location Recognition and the Geometric Burstiness Problem&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;
+&lt;p&gt;&lt;a href="http://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Sattler_Large-Scale_Location_Recognition_CVPR_2016_paper.pdf"&gt;&lt;strong&gt;Large-Scale Location Recognition and the Geometric Burstiness Problem.&lt;/strong&gt;&lt;/a&gt;
 Torsten Sattler, Michal Havlena, Konrad Schindler, Marc Pollefeys&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;

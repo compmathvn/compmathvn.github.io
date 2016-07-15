@@ -12,19 +12,17 @@
 
 ## **MATCHING**
 
-foo <font color='red'>bar</font> foo
+- [**FANNG: Fast Approximate Nearest Neighbour Graphs**](http://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Harwood_FANNG_Fast_Approximate_CVPR_2016_paper.pdf)
+Ben Harwood, Tom Drummond (CVPR-16) 
+-- Find best match descriptor in a dataset. Directed graph, one node for each descriptor. "Occlusion" property for ideal graph to make sure the search always goes downhill (getting closer to the target) starting at an arbitrary node. Speed up with approximate graph construction and back-track search.
 
-- [**FANNG: Fast Approximate Nearest Neighbour Graphs**](http://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Harwood_FANNG_Fast_Approximate_CVPR_2016_paper.pdf) 
-[[notes]](link://slug/harwood16cvpr)  
-Ben Harwood, Tom Drummond
+- [<span style="background-color: #FFFF00">**Robust Visual Place Recognition With Graph Kernels.**</span>](http://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Stumm_Robust_Visual_Place_CVPR_2016_paper.pdf)
+Elena Stumm, Christopher Mei, Simon Lacroix, Juan Nieto, Marco Hutter, Roland Siegwart (CVPR-16) <font color='red'>**◄◄**</font>
 
-- [**Robust Visual Place Recognition With Graph Kernels**](http://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Stumm_Robust_Visual_Place_CVPR_2016_paper.pdf)  
-Elena Stumm, Christopher Mei, Simon Lacroix, Juan Nieto, Marco Hutter, Roland Siegwart
+- [**Needle-Match: Reliable Patch Matching Under High Uncertainty.**](http://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Lotan_Needle-Match_Reliable_Patch_CVPR_2016_paper.pdf)
+Or Lotan, Michal Irani (CVPR-16) <font color='red'>**◄**</font> -- Multi-scale jet-style descriptor using pixel intensity directly. Same patch size at all levels. Useful for noise, blur, deformation. Not scale invariant.
 
-- [**Needle-Match: Reliable Patch Matching Under High Uncertainty**](http://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Lotan_Needle-Match_Reliable_Patch_CVPR_2016_paper.pdf)  
-Or Lotan, Michal Irani
-
-- [**Large-Scale Location Recognition and the Geometric Burstiness Problem**](http://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Sattler_Large-Scale_Location_Recognition_CVPR_2016_paper.pdf)  
+- [**Large-Scale Location Recognition and the Geometric Burstiness Problem.**](http://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Sattler_Large-Scale_Location_Recognition_CVPR_2016_paper.pdf)
 Torsten Sattler, Michal Havlena, Konrad Schindler, Marc Pollefeys
 
 - [**The Global Patch Collider**](http://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Wang_The_Global_Patch_CVPR_2016_paper.pdf)  
